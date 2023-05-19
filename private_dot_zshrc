@@ -1,0 +1,4 @@
+source ~/.zsh/core.zsh
+
+d=/etc/dircolors
+test -r $d && eval "$(dircolors $d)"
