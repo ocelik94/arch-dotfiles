@@ -66,7 +66,7 @@ screens = [
                 ),
                 widget.CurrentLayout(padding=0),
                 widget.Spacer(),
-                widget.Clock(format='%d %b %I:%M %p'),
+                widget.Clock(format='%d %b %H:%M'),
                 widget.Spacer(),
                 widget.Systray(icon_size=15, padding=5),
                 separator,
