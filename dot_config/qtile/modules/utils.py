@@ -6,22 +6,15 @@ from pathlib import Path
 
 MOD_KEY = 'mod4'
 TERMINAL = 'alacritty'
-DEFAULT_FONT = 'Hack Nerd Font'
+DEFAULT_FONT = 'RobotoMono Nerd Font'
 
 AUTOSTART_APPS = [
     # set auto-repeat delay and rate
     "xset r rate 300 25",
-    # trigger session lock after 5 minutes of inactivity,
-    # turn display off 2 minutes later
-    'xset s 300; xss-lock -- ~/.local/bin/lock-screen &',
     # run window compositor (restart if running already)
     'killall -qw picom; picom -b',
     # run notification daemon
     'killall -qw dunst; dunst &',
-    # run bluetooth daemon
-    'killall -qw blueman-applet; blueman-applet &',
-    # run daemon to auto-mount USB disks
-    'killall -qw udiskie; udiskie &',
 ]
 """
 Shell commands which will be started each time Qtile starts in the order that
@@ -42,7 +35,7 @@ Shell command template to set screen brightness
 """
 
 ICONS_DIR = str(Path.home() / '.config' / 'qtile' / 'icons')
-WALLPAPER_PATH = str(Path.home() / '.config' / 'wallpapers' / 'spaceman.jpg')
+WALLPAPER_PATH = str(Path.home() / '.config' / 'wallpapers' / 'astronaut.jpg')
 
 TAKE_SCREENSHOT_SHELL_CMD = '''
     maim -o -s \

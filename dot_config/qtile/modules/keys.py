@@ -39,12 +39,6 @@ keys = [
     Key([MOD_KEY], 'r',lazy.spawn(RUN_APP_LAUNCHER_SHELL_CMD),desc='Run application launcher'),
     Key([MOD_KEY], 'Print',lazy.spawn(TAKE_SCREENSHOT_SHELL_CMD, shell=True),desc='Take a screenshot'),
     Key([MOD_KEY], 'l',lazy.spawn(LOCK_X_SESSION_SHELL_CMD),desc='Lock X session'),
-    Key([], 'XF86AudioRaiseVolume',lazy.widget['speakers_volume'].raise_volume(),desc='Increase speakers volume'),
-    Key([], 'XF86AudioLowerVolume',lazy.widget['speakers_volume'].lower_volume(),desc='Decrease speakers volume'),
-    Key([], 'XF86AudioMute',lazy.widget['speakers_volume'].toggle_mute_volume(),desc='Toggle mute speakers volume'),
-    Key([], 'XF86AudioMicMute',lazy.widget['microphone_volume'].toggle_mute_volume(),desc='Toggle mute microphone volume'),
-    Key([], 'XF86MonBrightnessUp',lazy.widget['backlight'].change_backlight(ChangeDirection.UP),desc='Increase screen brightness'),
-    Key([], 'XF86MonBrightnessDown',lazy.widget['backlight'].change_backlight(ChangeDirection.DOWN),desc='Decrease screen brightness')
 ]
 
 for index, group in enumerate(groups, 1):
