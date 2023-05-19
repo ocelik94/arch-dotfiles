@@ -6,38 +6,34 @@ from libqtile.config import Group, Match
 
 group_definitions = [
     {
-        'name': 'web',
-        'label': '󰈹',
-        'matches': [Match(wm_class='firefox')],
-        'layout': 'max'
-    },
-    {
-        'name': 'dev',
-        'label': '',
+        'name': '1',
+        'label': '󰲠',
         'layout': 'columns'
     },
     {
-        'name': 'ms-teams',
-        'label': '',
-        'matches': [Match(wm_class='teams-for-linux')],
-        'layout': 'max'
+        'name': '2',
+        'label': '󰲢',
+        'layout': 'columns'
     },
     {
-        'name': 'telegram',
-        'label': '',
-        'matches': [Match(wm_class='telegram-desktop')],
-        'layout': 'max'
+        'name': '3',
+        'label': '󰲤',
+        'layout': 'columns'
     },
     {
-        'name': 'spotify',
-        'label': '',
-        'matches': [Match(wm_class='Spotify')],
-        'layout': 'max'
+        'name': '4',
+        'label': '󰲦',
+        'layout': 'columns'
     },
     {
-        'name': 'miscellaneous',
-        'label': '󱗼',
-        'layout': 'floating'
+        'name': '5',
+        'label': '󰲨',
+        'layout': 'columns'
+    },
+    {
+        'name': '6',
+        'label': '󰲪',
+        'layout': 'columns'
     },
 ]
 

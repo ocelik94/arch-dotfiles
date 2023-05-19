@@ -55,7 +55,8 @@ screens = [
                     this_current_screen_border=color_schema['dark-yellow'],
                     urgent_alert_method='text',
                     urgent_text=color_schema['dark-red'],
-                    fontsize=18
+                    fontsize=18,
+                    padding=0
                 ),
                 separator,
                 widget.CurrentLayoutIcon(
@@ -67,6 +68,8 @@ screens = [
                 widget.Spacer(),
                 widget.Clock(format='%d %b %I:%M %p'),
                 widget.Spacer(),
+                widget.Systray(icon_size=15, padding=5),
+                separator,
                 #Bluetooth(
                 #    hci=BLUETOOTH_DEVICE_HCI_PATH,
                 #    fmt="{}",
