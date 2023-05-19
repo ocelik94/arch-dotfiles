@@ -52,7 +52,7 @@ LOCK_X_SESSION_SHELL_CMD = 'loginctl lock-session'
 Shell command to lock X session
 """
 
-KEYBOARD_LAYOUTS = ['us', 'ru']
+KEYBOARD_LAYOUTS = ['eu', 'de']
 """
 List of keyboard layouts which should be available in system
 """
