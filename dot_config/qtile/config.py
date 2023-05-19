@@ -3,6 +3,7 @@ Qtile Configurations
 """
 
 import modules.hooks
+from modules.groups import groups
 from modules.keys import keys, mouse
 from modules.layouts import layouts, floating_layout
 from modules.screens import screens, widget_defaults

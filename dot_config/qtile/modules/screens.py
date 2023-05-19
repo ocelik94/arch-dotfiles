@@ -48,7 +48,7 @@ screens = [
             [
                 widget.GroupBox(
                     disable_drag=True,
-                    use_mouse_wheel=False,
+                    use_mouse_wheel=True,
                     active=color_schema['fg'],
                     inactive=color_schema['dark-gray'],
                     highlight_method='text',
