@@ -1,0 +1,7 @@
+README.md
+.Trash
+.DS_Store
+.CFUserTextEncoding
+*.sample
+.gitlab
+
