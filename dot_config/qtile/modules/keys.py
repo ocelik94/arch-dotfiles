@@ -28,6 +28,7 @@ keys = [
     Key([MOD_KEY, 'control'], 'l',lazy.layout.grow_right(),desc='Grow window to the right'),
     Key([MOD_KEY, 'control'], 'j',lazy.layout.grow_down(),desc='Grow window down'),
     Key([MOD_KEY, 'control'], 'k',lazy.layout.grow_up(),desc='Grow window up'),
+    Key([MOD_KEY], 'f',lazy.window.toggle_floating(),desc='Grow window up'),
     Key([MOD_KEY], 'n',lazy.layout.normalize(),desc='Reset all window sizes'),
     Key([MOD_KEY, 'shift'],'Return',lazy.layout.toggle_split(),desc='Toggle between split and unsplit sides of stack',),
     Key([MOD_KEY], 'Return', lazy.spawn(TERMINAL), desc='Launch terminal'),
