@@ -15,6 +15,10 @@ AUTOSTART_APPS = [
     'killall -qw picom; picom -b',
     # run notification daemon
     'killall -qw dunst; dunst &',
+    # run imwheel
+    'killall -qw imwheel; imwheel &'
+    # run vmware-user-suid-wrapper
+    'killall -qw vmware-user-suid-wrapper; vmware-user-suid-wrapper &'
 ]
 """
 Shell commands which will be started each time Qtile starts in the order that
