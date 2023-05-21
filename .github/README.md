@@ -1,5 +1,3 @@
-<!-- ========================================================================== -->
-<!-- ☄️  heading {{{ -->
 <h1 align="center">⚙️ ocelik94's dotfiles ⚙️</h1>
 
 <p align="center">
@@ -17,26 +15,10 @@
             src="https://github.com/ocelik94/dotfiles/blob/main/.github/assets/demo.png?raw=true"/>
     </kbd>
 </p>
+
 <p align="center">
-<!-- }}} -->
-<!-- ========================================================================== -->
 
-<!-- 👾 Overview {{{ -->
 ## 👾 Overview
-
-### **[I use arch, btw](https://wiki.archlinux.org/title/Arch_Linux)**
-
-> In short (JFK definitely would've used arch, btw):
->
-> _"...we {do these} things **not** because they are easy, but **because they are hard**_,"<br>
->
-> &emsp;&emsp;_"because that goal will serve to **organize** and **measure** the best of our energies and skills_,"<br>
->
-> &emsp;&emsp;&emsp;&emsp;_"because that challenge is one that we are **willing to accept**, one we are **unwilling to postpone**_..."
-
----
-
-## 👨‍💻 Software
 
 <details open>
 <summary>🖥️ <b>Display</b></summary>
@@ -77,3 +59,11 @@
 - Emoji: [Noto Color Emoji](https://fonts.google.com/noto/specimen/Noto+Color+Emoji)
 
 </details>
+
+## 👾 Installation
+
+Following packages need to be installed (copy/paste in Arch using paru):
+
+``` 
+paru -S alacritty brave-bin chezmoi dunst git gst-plugin-pipewire imwheel libappindicator-gtk3 libpulse neofetch neovim networkmanager picom pipewire pipewire-alsa pipewire-jack pipewire-pulse python-dbus-next qtile rofi rustup ttf-roboto-mono-nerd wireplumber xclip xdg-user-dirs xfce4-screenshooter xorg-xset zsh
+```
