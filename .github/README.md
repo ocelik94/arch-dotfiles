@@ -62,8 +62,21 @@
 
 ## 👾 Installation
 
+### Requirements
+
 Following packages need to be installed (copy/paste in Arch using paru):
 
 ``` 
 paru -S alacritty brave-bin chezmoi dunst git gst-plugin-pipewire imwheel libappindicator-gtk3 libpulse neofetch neovim networkmanager picom pipewire pipewire-alsa pipewire-jack pipewire-pulse python-dbus-next qtile rofi rustup ttf-roboto-mono-nerd wireplumber xclip xdg-user-dirs xfce4-screenshooter xorg-xset zsh
+```
+
+### Easy Installation with Chezmoi
+
+Using chezmoi is the easiest way to setup this dotfiles. Make sure you have [chezmoi](https://chezmoi.io/) installed with `paru -S chezmoi`
+
+```
+chezmoi cd
+git clone https://github.com/ocelik94/dotfiles .
+chezmoi apply
+
 ```
