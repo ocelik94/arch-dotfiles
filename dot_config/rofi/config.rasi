@@ -1,5 +1,5 @@
 configuration {
-    font: "Hack 12";
+    font: "Roboto 12";
     terminal: "alacritty";
     timeout {
         action: "kb-cancel";
