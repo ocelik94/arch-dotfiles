@@ -35,6 +35,7 @@ keys = [
     Key([MOD_KEY], 'Tab', lazy.next_layout(), desc='Toggle between layouts'),
     Key([MOD_KEY], 'q', lazy.window.kill(), desc='Kill focused window'),
     Key([MOD_KEY, 'control'], 'r',lazy.reload_config(),desc='Reload the config'),
+    Key([MOD_KEY, 'control'], 's',lazy.restart(),desc='Restart Qtile'),
     Key([MOD_KEY, 'control'], 'q', lazy.shutdown(), desc='Shutdown Qtile'),
     Key([MOD_KEY], 'space',lazy.spawn(RUN_APP_LAUNCHER_SHELL_CMD),desc='Run application launcher'),
     Key([MOD_KEY], 'r',lazy.widget['keyboardlayout'].next_keyboard(),desc='Change keyboard layout'),

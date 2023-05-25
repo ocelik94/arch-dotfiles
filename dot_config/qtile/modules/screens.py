@@ -134,4 +134,8 @@ screens = [
             margin=[5, 5, 0, 5],
         ),
     ),
+    Screen(
+        wallpaper=WALLPAPER_PATH,
+        wallpaper_mode='fill',
+    ),
 ]
