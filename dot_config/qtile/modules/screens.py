@@ -6,7 +6,6 @@ import os
 from libqtile import bar, widget
 from libqtile.config import Screen
 
-# from modules.widgets import Bluetooth, NetworkManager, Volume, Battery
 from modules.widgets import Bluetooth, NetworkManager, Volume, Battery
 
 from modules.colors import color_schema
@@ -15,8 +14,8 @@ from modules.utils import (
     ICONS_DIR,
     WALLPAPER_PATH,
     KEYBOARD_LAYOUTS,
-    #BRIGHTNESS_DIR,
-    #SET_BRIGHTNESS_SHELL_CMD,
+    BRIGHTNESS_DIR,
+    SET_BRIGHTNESS_SHELL_CMD,
     GET_SPEAKERS_VOLUME_SHELL_CMD,
     RAISE_SPEAKERS_VOLUME_SHELL_CMD,
     LOWER_SPEAKERS_VOLUME_SHELL_CMD,
@@ -117,13 +116,13 @@ screens = [
                     },
                     update_interval=1
                 ),
-                #separator,
-                #Battery(update_interval=60),
-                #widget.Backlight(
-                #    backlight_name=BRIGHTNESS_DIR,
-                #    change_command=SET_BRIGHTNESS_SHELL_CMD,
-                #    format='󰌵 {percent:2.0%}'
-                #),
+                separator,
+                Battery(update_interval=60),
+                widget.Backlight(
+                    backlight_name=BRIGHTNESS_DIR,
+                    change_command=SET_BRIGHTNESS_SHELL_CMD,
+                    format='󰌵 {percent:2.0%}'
+                ),
                 separator,
                 widget.KeyboardLayout(
                     configured_keyboards=KEYBOARD_LAYOUTS,
