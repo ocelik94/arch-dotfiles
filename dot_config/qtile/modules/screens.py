@@ -67,7 +67,7 @@ screens = [
                 widget.Spacer(),
                 widget.Clock(format='%d %b %H:%M'),
                 widget.Spacer(),
-                widget.Systray(icon_size=15, padding=5),
+                widget.Systray(icon_size=20, padding=5),
                 separator,
                 #Bluetooth(
                 #    hci=BLUETOOTH_DEVICE_HCI_PATH,
