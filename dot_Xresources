@@ -1,2 +1,53 @@
-Xcursor.theme: Adwaita
-Xcursor.size: 28
+Xft.dpi: 96
+Xft.antialias: 1
+Xft.hinting: 1
+Xft.autohint: 0
+Xft.hintstyle: hintslight
+Xft.rgba:	rgb
+Xft.lcdfilter: lcddefault
+
+! st.font: JetBrainsMono Nerd Font:style:medium:pixelsize=14
+
+! window padding
+! st.borderpx: 10
+
+!- 0.1 to 0.9 = transparency
+st.alpha: 1
+
+*background: #171717
+*foreground: #D0D0D0
+
+! Black + DarkGrey
+*color0:  #151515
+*color8:  #373737
+
+! DarkRed + Red
+*color1:  #984936
+*color9:  #984936
+
+! DarkGreen + Green
+*color2:  #90A959
+*color10: #90A959
+
+! DarkYellow + Yellow
+*color3:  #F4BF75
+*color11: #e0af68
+
+! DarkBlue + Blue
+*color4:  #7E97AB
+*color12: #7E97AB
+
+! DarkMagenta + Magenta
+*color5:  #AA749F
+*color13: #AA759F
+
+! DarkCyan + Cyan
+*color6:  #88afa2
+*color14: #88afa2
+
+! LightGrey + White
+*color7:  #727272
+*color15: #AFAFAF
+
+Xcursor.size: 24
+Xcursor.theme: phinger-cursors
