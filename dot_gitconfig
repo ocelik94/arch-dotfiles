@@ -1,0 +1,6 @@
+[user]
+	email = okan@celik.tech
+	name = Okan Celik
+	signingkey = 7D279ED727E5D470
+[commit]
+	gpgsign = true
