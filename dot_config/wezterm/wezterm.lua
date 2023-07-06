@@ -93,6 +93,7 @@ return {
   disable_default_key_bindings = true,
   enable_scroll_bar = true,
   keys = keybinds,
+  warn_about_missing_glyphs = false,
 }
 
 
