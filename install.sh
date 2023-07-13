@@ -41,3 +41,5 @@ qt5-quickcontrols2 rofi rustup sddm ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbo
 ttf-roboto-mono-nerd visual-studio-code-bin wezterm wget xdg-user-dirs xf86-video-vmware xorg-xinit zram-generator  --needed
 
 fc-cache -fv
+
+chezmoi -R apply
