@@ -4,4 +4,5 @@ README.md
 .CFUserTextEncoding
 *.sample
 .gitlab
-
+.github
+install.sh
