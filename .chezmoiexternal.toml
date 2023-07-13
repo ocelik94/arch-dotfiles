@@ -1,0 +1,4 @@
+[".config/awesome"]
+    type = "git-repo"
+    url = "https://gitlab.projectoc.de/dotfiles/awesome.git"
+    refreshPeriod = "168h"

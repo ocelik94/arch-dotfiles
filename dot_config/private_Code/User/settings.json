@@ -1,0 +1,8 @@
+{
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "afterDelay",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "window.titleBarStyle": "custom",
+    "workbench.colorTheme": "Default Dark Modern"
+}

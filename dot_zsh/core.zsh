@@ -4,3 +4,7 @@
 [[ ! -f ~/.zsh/aliases.zsh ]] || source ~/.zsh/aliases.zsh
 
 export PATH=$PATH:$HOME/.local/bin/
+
+HISTFILE=~/.zsh_history
+HISTSIZE=1000
+SAVEHIST=1000
