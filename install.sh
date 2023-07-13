@@ -35,7 +35,7 @@ then
 fi
 
 $HELPER -Sy 1password awesome-git base base-devel blueman brave-bin chezmoi efibootmgr gst-plugin-pipewire \
-gtkmm3 i3lock kitty linux linux-firmware polkit-kde-agent neovim network-manager-applet open-vm-tools zsh \
+gtkmm3 i3lock-color kitty linux linux-firmware polkit-kde-agent neovim network-manager-applet open-vm-tools zsh \
 papirus-icon-theme paru pcmanfm-qt picom-git pipewire-alsa pipewire-jack pipewire-pulse qt5-quickcontrols \
 qt5-quickcontrols2 rofi rustup sddm ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-mono \
 ttf-roboto-mono-nerd visual-studio-code-bin wezterm wget xdg-user-dirs xf86-video-vmware xorg-xinit zram-generator  --needed
